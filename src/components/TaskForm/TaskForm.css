@@ -1,0 +1,104 @@
+.modal-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(241, 210, 235);
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.modal-h2{
+    color: blue;
+}
+
+
+
+.btn-agregar{
+    color: #ff6464;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 20px;
+    background-color: #d1e957;
+    cursor: pointer;
+    transition: border-color 0.25s; 
+    gap: 5px;
+}
+
+.btn-agregar:hover {
+    border-color: #646cff;
+  }
+  .btn-agregar:focus,
+  .btn-agregar:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+.input-container{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.input-container label{
+    color: red;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-container input{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border-color: #646cff;
+}
+
+.input-container textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    border-color: #646cff;
+}
+
+.btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-cancelar{
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 20px;
+    background-color: red;
+    cursor: pointer;
+    transition: border-color 0.25s; 
+    gap: 5px;
+}
+
+.btn-agrego{
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 20px;
+    background-color: green;
+    cursor: pointer;
+    transition: border-color 0.25s; 
+    gap: 5px;
+}
